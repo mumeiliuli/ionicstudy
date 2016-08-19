@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="cordova.js"></script>
+</head>
+<body>
+    <div class="bar bar-header">
+        <div class="h1 title">预输入标签</div>
+    </div>
+
+    <div class="content has-header" style="height:600px;">
+        <div class="list list-inset">
+            <label class="item item-input">
+                <span class="input-label">姓：</span>
+                <input type="text">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label has-input">浮动标签？</span>
+                <input type="text" placeholder="Last Name">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">堆叠标签</span>
+                <input type="text" placeholder="john@suhr.com">
+            </label>
+            <label class="item item-input">
+                <textarea placeholder="Comments"></textarea>
+            </label>
+            <div class="item item-input-inset">
+                <label class="item-input-wrapper">
+                    <input type="text" placeholder="内嵌按钮">
+                </label>
+                <button class="button button-small">
+                    Submit
+                </button>
+            </div>
+
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="text" placeholder="内嵌图标">
+            </label>
+
+
+        </div>
+        <div class="padding">
+            <button class="button button-block button-positive">Submit</button>
+        </div>
+    </div>
+</body>
+</html>
